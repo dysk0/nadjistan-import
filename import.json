@@ -1,0 +1,110 @@
+{
+  "items": [
+    {
+      "internal_id": 1000,
+      "created": "2023-01-01 21:39:53",
+      "modified": "2023-03-01 21:39:53",
+      "io_estates_type": [
+        8,
+        9
+      ],
+      "title": "Amazing house for rent",
+      "content": "Amazing apartment for rent content... We will accept simple HTML...",
+      "meta": {
+        "io_estates_currency": "EUR",
+        "io_estates_price": 1200,
+        "io_estates_address": "Durmitorska 18",
+        "io_estates_zip": "11001",
+        "io_estates_city": "Beograd",
+        "io_estates_region": "Beograd",
+        "io_estates_state": "Srbija",
+        "io_estates_bathrooms": 1,
+        "io_estates_sqm": 90,
+        "io_estates_land": 250,
+        "io_estates_layout": null,
+        "io_estates_geo": {
+          "lat": 44.8003986,
+          "lng": 20.4530811
+        },
+        "io_estates_mode": "rent",
+        "io_estates_payment": "month",
+        "io_estates_builded": 2023,
+        "io_estates_video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "io_estates_panorama360": "https://pixexid.com/image/cm1btua-360-image-of-a-room"
+      },
+      "io_estates_loc": 311,
+      "io_estates_rooms": 39,
+      "io_estates_floors": 44,
+      "io_estates_level": null,
+      "io_estates_heating": 52,
+      "io_estates_condition": 308,
+      "io_estates_equip": 62,
+      "io_estates_attr": [
+        66,
+        67,
+        240
+      ],
+      "io_estates_waste": 246,
+      "io_estates_storey": 249,
+      "images": [
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/sarajevo.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/trebinje.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/banjaluka.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/prijedor.jpg"
+      ]
+    },
+    {
+      "internal_id": 1010,
+      "created": "2023-01-01 21:39:53",
+      "modified": "2023-03-01 21:39:53",
+      "io_estates_type": [
+        23,
+        9
+      ],
+      "title": "Amazing apartment for sell",
+      "content": "Amazing apartment for sell content...\n\nWe will accept simple HTML...",
+      "meta": {
+        "io_estates_currency": "EUR",
+        "io_estates_price": 90120,
+        "io_estates_address": "Durmitorska 18",
+        "io_estates_zip": "11001",
+        "io_estates_city": "Beograd",
+        "io_estates_region": "Beograd",
+        "io_estates_state": "Srbija",
+        "io_estates_bathrooms": 1,
+        "io_estates_sqm": 120,
+        "io_estates_land": null,
+        "io_estates_layout": null,
+        "io_estates_geo": {
+          "lat": 44.8003986,
+          "lng": 20.4530811
+        },
+        "io_estates_mode": "rent",
+        "io_estates_payment": "month",
+        "io_estates_builded": 2023,
+        "io_estates_video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "io_estates_panorama360": "https://pixexid.com/image/cm1btua-360-image-of-a-room"
+      },
+      "io_estates_loc": 311,
+      "io_estates_rooms": 39,
+      "io_estates_floors": 44,
+      "io_estates_level": null,
+      "io_estates_heating": 52,
+      "io_estates_condition": 308,
+      "io_estates_equip": 62,
+      "io_estates_attr": [
+        66,
+        67,
+        240
+      ],
+      "io_estates_waste": 246,
+      "io_estates_storey": 249,
+      "images": [
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/sarajevo.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/trebinje.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/banjaluka.jpg",
+        "https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/prijedor.jpg"
+      ]
+    }
+  ]
+}
