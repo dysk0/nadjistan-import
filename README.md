@@ -1,5 +1,21 @@
 # XML format
 To import property, please folow XML creation guide.
+
+## IO_EstatesMode
+This is one of the most important taxonomies. You can use hardcoded values:
+
+```
+class  IO_EstatesMode
+{
+  const Buy = 'buy';
+  const Sell = 'sell';
+  const Rent = 'rent';
+  const Lease = 'lease';
+}
+```
+
+
+
 ## IO_EstatesType
 This is one of the most important taxonomies. If you are using values from the REST endpoint, please note that you'll need to provide one ID where `parent` is 0 and you can provide one subitem of that parent if it exists.
 
@@ -39,7 +55,7 @@ Taxonomy is used to specify number of rooms for a property. Can be used only wit
 ```
 class IO_EstatesRooms
 {
-  const Garsonjera = 38;
+  const Studio = 38;
   const OneRoom = 39;
   const TwoRooms = 37;
   const ThreeRooms = 40;
@@ -67,6 +83,7 @@ class IO_EstatesHeating
 ```
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_heating`
+
 ## IO_EstatesAttributes
 Taxonomy is used to specify additional atributes of the property. 
 ```
@@ -86,6 +103,7 @@ class IO_EstatesAttributes
 ```
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_attr`
+
 ## IO_EstatesCondition
 ```
 class IO_EstatesCondition
@@ -96,6 +114,10 @@ class IO_EstatesCondition
   const Old = 309;
 }
 ```
+Or fetch data from on following endpoint:
+`/wp-json/wp/v2/io_estates_condition`
+
+
 ## IO_EstatesEquipment
 ```
 class IO_EstatesEquipment
@@ -105,6 +127,9 @@ class IO_EstatesEquipment
   const Semiequipped = 64;
 }
 ```
+Or fetch data from on following endpoint:
+`/wp-json/wp/v2/io_estates_equip`
+
 ## IO_EstatesPaymentInterval
 ```
 class IO_EstatesPaymentInterval
@@ -112,15 +137,5 @@ class IO_EstatesPaymentInterval
   const Month = 'month';
   const Day = 'day';
   const None = null;
-}
-```
-## IO_EstatesMode
-```
-class  IO_EstatesMode
-{
-  const Buy = 'buy';
-  const Sell = 'sell';
-  const Rent = 'rent';
-  const Lease = 'lease';
 }
 ```
