@@ -1,0 +1,112 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<items>
+		<item>
+			<internal_id>1000</internal_id>
+			<created>2023-01-01 21:35:48</created>
+			<modified>2023-03-01 21:35:48</modified>
+			<io_estates_type>
+				<item>8</item>
+				<item>9</item>
+			</io_estates_type>
+			<title>Amazing house for rent</title>
+			<content>Amazing apartment for rent content... We will accept simple HTML...</content>
+			<meta>
+				<io_estates_currency>EUR</io_estates_currency>
+				<io_estates_price>1200</io_estates_price>
+				<io_estates_address>Durmitorska 18</io_estates_address>
+				<io_estates_zip>11001</io_estates_zip>
+				<io_estates_city>Beograd</io_estates_city>
+				<io_estates_region>Beograd</io_estates_region>
+				<io_estates_state>Srbija</io_estates_state>
+				<io_estates_bathrooms>1</io_estates_bathrooms>
+				<io_estates_sqm>90</io_estates_sqm>
+				<io_estates_land>250</io_estates_land>
+				<io_estates_layout/>
+				<io_estates_geo>
+					<lat>44.8003986</lat>
+					<lng>20.4530811</lng>
+				</io_estates_geo>
+				<io_estates_mode>rent</io_estates_mode>
+				<io_estates_payment>month</io_estates_payment>
+				<io_estates_builded>2023</io_estates_builded>
+				<io_estates_video>https://www.youtube.com/embed/dQw4w9WgXcQ</io_estates_video>
+				<io_estates_panorama360>https://pixexid.com/image/cm1btua-360-image-of-a-room</io_estates_panorama360>
+			</meta>
+			<io_estates_loc>311</io_estates_loc>
+			<io_estates_rooms>39</io_estates_rooms>
+			<io_estates_floors>44</io_estates_floors>
+			<io_estates_level/>
+			<io_estates_heating>52</io_estates_heating>
+			<io_estates_condition>308</io_estates_condition>
+			<io_estates_equip>62</io_estates_equip>
+			<io_estates_attr>
+				<item>66</item>
+				<item>67</item>
+				<item>240</item>
+			</io_estates_attr>
+			<io_estates_waste>246</io_estates_waste>
+			<io_estates_storey>249</io_estates_storey>
+			<images>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/sarajevo.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/trebinje.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/banjaluka.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/prijedor.jpg</item>
+			</images>
+		</item>
+		<item>
+			<internal_id>1010</internal_id>
+			<created>2023-01-01 21:35:48</created>
+			<modified>2023-03-01 21:35:48</modified>
+			<io_estates_type>
+				<item>23</item>
+				<item>9</item>
+			</io_estates_type>
+			<title>Amazing apartment for sell</title>
+			<content>Amazing apartment for sell content... We will accept simple HTML...</content>
+			<meta>
+				<io_estates_currency>EUR</io_estates_currency>
+				<io_estates_price>90120</io_estates_price>
+				<io_estates_address>Durmitorska 18</io_estates_address>
+				<io_estates_zip>11001</io_estates_zip>
+				<io_estates_city>Beograd</io_estates_city>
+				<io_estates_region>Beograd</io_estates_region>
+				<io_estates_state>Srbija</io_estates_state>
+				<io_estates_bathrooms>1</io_estates_bathrooms>
+				<io_estates_sqm>120</io_estates_sqm>
+				<io_estates_land/>
+				<io_estates_layout/>
+				<io_estates_geo>
+					<lat>44.8003986</lat>
+					<lng>20.4530811</lng>
+				</io_estates_geo>
+				<io_estates_mode>rent</io_estates_mode>
+				<io_estates_payment>month</io_estates_payment>
+				<io_estates_builded>2023</io_estates_builded>
+				<io_estates_video>https://www.youtube.com/embed/dQw4w9WgXcQ</io_estates_video>
+				<io_estates_panorama360>https://pixexid.com/image/cm1btua-360-image-of-a-room</io_estates_panorama360>
+			</meta>
+			<io_estates_loc>311</io_estates_loc>
+			<io_estates_rooms>39</io_estates_rooms>
+			<io_estates_floors>44</io_estates_floors>
+			<io_estates_level/>
+			<io_estates_heating>52</io_estates_heating>
+			<io_estates_condition>308</io_estates_condition>
+			<io_estates_equip>62</io_estates_equip>
+			<io_estates_attr>
+				<item>66</item>
+				<item>67</item>
+				<item>240</item>
+			</io_estates_attr>
+			<io_estates_waste>246</io_estates_waste>
+			<io_estates_storey>249</io_estates_storey>
+			<images>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/sarajevo.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/trebinje.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/banjaluka.jpg</item>
+				<item>https://nadjistan.ba/wp-content/themes/nadjistan/assets/img/shop/categories/prijedor.jpg</item>
+			</images>
+		</item>
+	</items>
+</root>
