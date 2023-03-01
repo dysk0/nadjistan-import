@@ -19,6 +19,15 @@ class  IO_EstatesMode
 ## IO_EstatesType
 This is one of the most important taxonomies. If you are using values from the REST endpoint, please note that you'll need to provide one ID where `parent` is 0 and you can provide one subitem of that parent if it exists.
 
+| IO_EstatesType |  |   |
+| --- | --- | --- |
+| Homes |  | 8 |
+|  |  Duplex | 9 |
+|  |  Montazna | 10 |
+|  |  Samostalna | 11 |
+|  |  Vikendica | 11 |
+
+
 You can use hardcoded values:
 ```
 class IO_EstatesType
