@@ -170,10 +170,41 @@ You can use hardcoded values:
 class IO_EstatesType
 {
   const Homes = 8;
-  const Garage = 3;
+  const Kuca = 8;
+  const KucaDuplex = 9;
+  const KucaMontazna = 10;
+  const KucaSamostalna = 11;
+  const KucaVikendica = 12;
+
   const Office = 13;
+  const PoslovniProstor = 13;
+  const PoslovniProstorHotelMotel = 14;
+  const PoslovniProstorKancelarija = 15;
+  const PoslovniProstorKiosk = 16;
+  const PoslovniProstorMagacin = 17;
+  const PoslovniProstorOrdinacija = 18;
+  const PoslovniProstorOstalo = 19;
+  const PoslovniProstorProizvodniPogon = 20;
+  const PoslovniProstorTrgovinskiObjekat = 21;
+  const PoslovniProstorUgostiteljskiObjekat = 22;
+
   const Apartment = 23;
+  const Stan = 23;
+
   const Land = 24;
+  const Zemljiste = 24;
+  const ZemljisteGradjevinsko = 25;
+  const ZemljisteIndustrijsko = 26;
+  const ZemljisteOstalo = 294;
+  const ZemljistePoljoprivredno = 27;
+  const ZemljisteSuma = 293;
+
+  const Garage = 3;
+  const Garaza = 3;
+  const GarazaUSklopuStambenogObjekta = 4;
+  const GarazaUSklopuVeceGaraze = 5;
+  const GarazaNenatkrivenProstor = 6;
+  const GarazaSamostalnaGaraza = 7;
 }
 ```
 
@@ -343,6 +374,12 @@ Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_storey`
 
 ## IO_EstatesLoc
+
+All locations are hierarchical. There are three important properties:
+
+- `id` - this value should be provided via import file to set location;
+- `name` - location name
+- `parent` - defines relation to another location. All main locations will have this value set to `0` and they will be an country.
 
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_loc`
