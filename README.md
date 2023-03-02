@@ -150,16 +150,6 @@ Base URL is: https://nadjistan.ba/
 }
 ```
 
-
-
-```mermaid
-graph TD;
-    root-->items;
-    items-->item;
-    item-->internal_id;
-    item-->created;
-```
-
 ## IO_EstatesMode
 This is one of the most important taxonomies. You can use hardcoded values:
 
@@ -316,3 +306,15 @@ Or fetch data from on following endpoint:
 ## IO_EstatesLevel
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_level`
+
+
+# Import flow
+```mermaid
+graph TD;
+    importing --> imported;
+    imported --> autopublishing;
+    autopublishing --> enabled;
+    autopublishing --> disabled;
+    enabled --> published;
+    disabled --> draft;
+```
