@@ -36,7 +36,12 @@ Base URL is: https://nadjistan.ba/
 | `/` | `io_estates_floors` | Defines floors of the property. Please be aware that you need to send an `id` of [IO_EstatesFloors](#io_estatesfloors)  | `int`  | No |
 | `/` | `io_estates_level` | Defines level of the property in the building. Please be aware that you need to send an `id` of [IO_EstatesLevel](#io_estateslevel)  | `int`  | No |
 | `/` | `io_estates_heating` | Defines type of heating in the property. Please be aware that you need to send an `id` of [IO_EstatesHeating](#io_estatesheating)  | `int`  | No |
-| `/` | `io_estates_level` | Defines level of the property in the building. Please be aware that you need to send an `id` of [IO_EstatesLevel](#io_estateslevel)  | `int`  | No |
+| `/` | `io_estates_condition` | Defines condition of the property. Please be aware that you need to send an `id` of [IO_EstatesCondition](#io_estatescondition)  | `int`  | No |
+| `/` | `io_estates_equip` | Defines equiment in the property. Please be aware that you need to send an `id` of [IO_EstatesEquip](#io_estatesequip)  | `int`  | No |
+| `/` | `io_estates_attr` | Defines attributes of the property. Please be aware that you need to send an `id` of [IO_EstatesAttr](#io_estatesattr)  | `int[]`  | No |
+| `/` | `io_estates_waste` | Defines waste management in the property. Please be aware that you need to send an `id` of [IO_EstatesWaste](#io_estateswaste)  | `int`  | No |
+| `/` | `io_estates_storey` | Defines storeys in the property. Please be aware that you need to send an `id` of [IO_EstatesStorey](#io_estatesstorey)  | `int`  | No |
+| `/` | `images` | List of the URLs to the images which will be imported and attached to the item. It's recommended to include at least one (preferably 7), and can provide up to 15 URLs. We will show up to 7 images by default, and you can 'buy' additional images on the portal.  | `URL[]`  | No |
 
 
 
@@ -281,9 +286,9 @@ Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_condition`
 
 
-## IO_EstatesEquipment
+## IO_EstatesEquip
 ```
-class IO_EstatesEquipment
+class IO_EstatesEquip
 {
   const Equipped = 62;
   const Unequipped = 63;
