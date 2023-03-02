@@ -153,7 +153,7 @@ Base URL is: https://nadjistan.ba/
 ## IO_EstatesMode
 This is one of the most important taxonomies. You can use hardcoded values:
 
-```
+```php
 class  IO_EstatesMode
 {
   const Buy = 'buy';
@@ -178,7 +178,7 @@ This is one of the most important taxonomies. If you are using values from the R
 
 
 You can use hardcoded values:
-```
+```php
 class IO_EstatesType
 {
   const Homes = 8;
@@ -197,7 +197,7 @@ This taxonomy is used to set waste for property.
 
 You can use hardcoded values:
 
-```
+```php
 class IO_EstatesWaste
 {
   const None = 247;
@@ -210,7 +210,7 @@ Or fetch data from on following endpoint:
 
 ## IO_EstatesRooms
 Taxonomy is used to specify number of rooms for a property. Can be used only with Home and Apartment `IO_EstatesType`.
-```
+```php
 class IO_EstatesRooms
 {
   const Studio = 38;
@@ -227,7 +227,7 @@ Or fetch data from on following endpoint:
 
 ## IO_EstatesHeating
 Taxonomy is used to specify heating method. It is meaningfull only to Home and Apartment `IO_EstatesType`.
-```
+```php
 class IO_EstatesHeating
 {
   const Wood = 51;        // drva
@@ -244,7 +244,7 @@ Or fetch data from on following endpoint:
 
 ## IO_EstatesAttributes
 Taxonomy is used to specify additional atributes of the property. 
-```
+```php
 class IO_EstatesAttributes
 {
   const AutomatskaVrata = 65;
@@ -263,7 +263,7 @@ Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_attr`
 
 ## IO_EstatesCondition
-```
+```php
 class IO_EstatesCondition
 {
   const New = 59;
@@ -277,7 +277,7 @@ Or fetch data from on following endpoint:
 
 
 ## IO_EstatesEquip
-```
+```php
 class IO_EstatesEquip
 {
   const Equipped = 62;
@@ -289,7 +289,7 @@ Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_equip`
 
 ## IO_EstatesPaymentInterval
-```
+```php
 class IO_EstatesPaymentInterval
 {
   const Month = 'month';
