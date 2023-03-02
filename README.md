@@ -32,7 +32,11 @@ Base URL is: https://nadjistan.ba/
 | `/meta` | `io_estates_video` | To include promo video, you can provide YouTube embed URL.  | `URL`  | No |
 | `/meta` | `io_estates_panorama360` | To present 360&deg; panorama, you can an URL.  | `URL`  | No |
 | `/` | `io_estates_loc` | Include in `id` from [IO_EstatesLoc](#io_estatesloc) to set location. If this is not set, system will try to resolve location on it's own by using `io_estates_city`,  `io_estates_region` and `io_estates_state`. We strongly recommend that you provide this on your own. | `int`  | Yes* |
-| `/` | `io_estates_rooms` | Number of rooms in the property. Please be aware that you need to send an `id` of IO_EstatesRooms  | `int`  | No |
+| `/` | `io_estates_rooms` | Number of rooms in the property. Please be aware that you need to send an `id` of [IO_EstatesRooms](#io_estatesrooms)  | `int`  | No |
+| `/` | `io_estates_floors` | Defines floors of the property. Please be aware that you need to send an `id` of [IO_EstatesFloors](#io_estatesfloors)  | `int`  | No |
+| `/` | `io_estates_level` | Defines level of the property in the building. Please be aware that you need to send an `id` of [IO_EstatesLevel](#io_estateslevel)  | `int`  | No |
+| `/` | `io_estates_heating` | Defines type of heating in the property. Please be aware that you need to send an `id` of [IO_EstatesHeating](#io_estatesheating)  | `int`  | No |
+| `/` | `io_estates_level` | Defines level of the property in the building. Please be aware that you need to send an `id` of [IO_EstatesLevel](#io_estateslevel)  | `int`  | No |
 
 
 
@@ -302,3 +306,8 @@ class IO_EstatesPaymentInterval
 ## IO_EstatesLoc
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_loc`
+
+
+## IO_EstatesLevel
+Or fetch data from on following endpoint:
+`/wp-json/wp/v2/io_estates_level`
