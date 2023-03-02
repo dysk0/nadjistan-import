@@ -277,6 +277,24 @@ class IO_EstatesCondition
 Or fetch data from on following endpoint:
 `/wp-json/wp/v2/io_estates_condition`
 
+## IO_EstatesFloors
+
+Used to set tyoe of floors for all `IO_EstatesType` except of `IO_EstatesType::Land`.
+
+```php
+class IO_EstatesFloors
+{
+  const Concrete = 43;
+  const BrodskiPod = 73;
+  const Laminat = 74;
+  const Parquet = 44;
+  const Tiles = 75;
+}
+```
+
+Or fetch data from on following endpoint:
+`/wp-json/wp/v2/io_estates_floors`
+
 ## IO_EstatesEquip
 
 Used to set equipment state of an item for all `IO_EstatesType` except of `IO_EstatesType::Land`.
@@ -308,7 +326,7 @@ class IO_EstatesPaymentInterval
 
 ## IO_EstatesStorey
 
-Used to set storey (etaža) of and item. Use it to set storey of an item. Related to the `IO_EstatesType::Home`.
+Used to set storey (etaža) of an item. Use it to set storey of an item. Related to the `IO_EstatesType::Home`.
 
 ```php
 class IO_EstatesStorey
