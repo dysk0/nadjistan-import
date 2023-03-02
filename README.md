@@ -445,11 +445,9 @@ Or fetch data from on following endpoint:
 # Import flow
 
 ```mermaid
-graph TD;
-    importing --> imported;
-    imported --> autopublishing;
-    autopublishing --> enabled;
-    autopublishing --> disabled;
-    enabled --> published;
-    disabled --> draft;
+flowchart TD
+    A[Importing] -->|Imported| B(Fetch images)
+    B --> C{Autopublish?}
+    C -->|On| D[published]
+    C -->|Off| E[draft]
 ```
