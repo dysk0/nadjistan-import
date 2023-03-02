@@ -154,15 +154,39 @@ class  IO_EstatesMode
 
 ## IO_EstatesType
 
-This is one of the most important taxonomies. If you are using values from the REST endpoint, please note that you'll need to provide one ID where `parent` is 0 and you can provide one subitem of that parent if it exists.
+This is one of the most important taxonomies. If you are using values from the REST endpoint, please note that you'll need to provide one ID where `parent` is 0 and you can provide one subitem of that parent if it exists. `Level 1` values are mandatory, and one `Level 2` value can be added if exists and matches your needs.
 
-| Lvl 1 | Lvl 2      | ID  |
-| ----- | ---------- | --- |
-| Homes |            | 8   |
-|       | Duplex     | 9   |
-|       | Montazna   | 10  |
-|       | Samostalna | 11  |
-|       | Vikendica  | 11  |
+| Lvl 1     | Lvl 2                       | ID  |
+| --------- | --------------------------- | --- |
+| Homes     |                             | 8   |
+|           | Duplex                      | 9   |
+|           | Montazna                    | 10  |
+|           | Samostalna                  | 11  |
+|           | Vikendica                   | 11  |
+| Office    |                             | 13  |
+|           | HotelMotel                  | 14  |
+|           | ProstorKancelarija          | 15  |
+|           | ProstorKiosk                | 16  |
+|           | ProstorMagacin              | 17  |
+|           | ProstorOrdinacija           | 18  |
+|           | ProstorOstalo               | 19  |
+|           | ProstorProizvodniPogon      | 20  |
+|           | ProstorTrgovinskiObjekat    | 21  |
+|           | ProstorUgostiteljskiObjekat | 22  |
+| Stan      |                             | 23  |
+| Land      |                             | 24  |
+| Zemljiste |                             | 24  |
+|           | Gradjevinsko                | 25  |
+|           | Industrijsko                | 26  |
+|           | Ostalo                      | 294 |
+|           | Poljoprivredno              | 27  |
+|           | Suma                        | 293 |
+| Garage    |                             | 3   |
+| Garaza    |                             | 3   |
+|           | USklopuStambenogObjekta     | 4   |
+|           | USklopuVeceGaraze           | 5   |
+|           | NenatkrivenProstor          | 6   |
+|           | SamostalnaGaraza            | 7   |
 
 You can use hardcoded values:
 
