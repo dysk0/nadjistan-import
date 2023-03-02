@@ -1,6 +1,10 @@
 # Import Data Format
 To import property, please folow JSON creation guide. All properties should reside in `items` array in `item` object.
 
+```
+Base URL is: https://nadjistan.ba/
+```
+
 ## Item
 
 | Section | Key | Description | Type | Requiered |
@@ -23,11 +27,11 @@ To import property, please folow JSON creation guide. All properties should resi
 | `/meta` | `io_estates_land` | Land related to the property in square meters | `int` | No |
 | `/meta` | `io_estates_geo` | Used to present position of property on the map.  | {`lat`:`double`, `lng`:`double`}, | No |
 | `/meta` | `io_estates_mode` | Declares desired action related to the property. Use `string` of [IO_EstatesMode](#io_estatesmode). | `sell` \| `buy` \| `rent` \| `lease` | Yes |
-| `/meta` | `io_estates_payment` | Defines payment interval if `io_estates_mode` is `lease` \| `rent`. Use `string` of `IO_EstatesPaymentInterval`. | `month` \| `day` \| `null` | * |
+| `/meta` | `io_estates_payment` | Defines payment interval if `io_estates_mode` is `lease` \| `rent`. Use `string` of [IO_EstatesPaymentInterval](#io_estatespaymentinterval). | `month` \| `day` \| `null` | * |
 | `/meta` | `io_estates_builded` | If applicable, used to set year when the property is builded.  | `int`  | No |
 | `/meta` | `io_estates_video` | To include promo video, you can provide YouTube embed URL.  | `URL`  | No |
 | `/meta` | `io_estates_panorama360` | To present 360&deg; panorama, you can an URL.  | `URL`  | No |
-| `/` | `io_estates_loc` | Include in `id` from [IO_EstatesLocations](#io_estateslocations) to set location. If this is not set, system will try to resolve location on it's own by using `io_estates_city`,  `io_estates_region` and `io_estates_state`. We strongly recommend that you provide this on your own. | `int`  | Yes* |
+| `/` | `io_estates_loc` | Include in `id` from [IO_EstatesLoc](#io_estatesloc) to set location. If this is not set, system will try to resolve location on it's own by using `io_estates_city`,  `io_estates_region` and `io_estates_state`. We strongly recommend that you provide this on your own. | `int`  | Yes* |
 | `/` | `io_estates_rooms` | Number of rooms in the property. Please be aware that you need to send an `id` of IO_EstatesRooms  | `int`  | No |
 
 
@@ -294,3 +298,7 @@ class IO_EstatesPaymentInterval
   const None = null;
 }
 ```
+
+## IO_EstatesLoc
+Or fetch data from on following endpoint:
+`/wp-json/wp/v2/io_estates_loc`
